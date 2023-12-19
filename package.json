@@ -1,0 +1,15 @@
+{
+  "name": "tree-animation",
+  "version": "1.0.0",
+  "repository": "git@github.com:Carina957/tree-animation.git",
+  "author": "Chi's <chis_x@foxmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "parcel src/index.html",
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./",
+    "deploy": "sh deploy.sh"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
