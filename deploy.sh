@@ -9,7 +9,7 @@ git init
 git add .
 git commit -m "feat: update tree animation"
 git branch -M main
-git remote add origin git@github.com:Carina957/tree-animation.git
+git remote add origin git@github.com:Carina957/tree-animation-preview.git
 git push -f -u origin main
 
 cd -
